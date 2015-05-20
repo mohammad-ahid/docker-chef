@@ -1,0 +1,12 @@
+{
+    "run_list": [
+        "recipe[nginx::package]",
+        "recipe[php-fpm]"
+    ],
+    "nginx": {
+        "default_site_enabled": false,
+        "worker_processes": "auto",
+        "gzip_comp_level": 5,
+        "webserver_listen": "0.0.0.0"
+    }
+}
