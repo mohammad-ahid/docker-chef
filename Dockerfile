@@ -1,6 +1,6 @@
 FROM ubuntu:14.04.2
 
-MAINTAINER ageng "me@ageng.my.id"
+MAINTAINER ahid "go.ahid@gmail.com"
 
 # Start
 
